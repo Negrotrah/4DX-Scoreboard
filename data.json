@@ -1,0 +1,147 @@
+{
+  "mainGoal": {
+    "target": 1000000,
+    "current": 0,
+    "previous": 0
+  },
+  "week": 3,
+  "year": 2026,
+  "departments": [
+    {
+      "id": 1,
+      "name": "Отдел продаж",
+      "leadIndicator": {
+        "name": "Показатель",
+        "plan": 10,
+        "current": 0,
+        "previous": 0
+      },
+      "kvts": {
+        "name": "КВЦ",
+        "target": 100,
+        "current": 0,
+        "previous": 0
+      },
+      "submitted": false
+    },
+    {
+      "id": 2,
+      "name": "Отдел маркетинга",
+      "leadIndicator": {
+        "name": "Показатель",
+        "plan": 10,
+        "current": 0,
+        "previous": 0
+      },
+      "kvts": {
+        "name": "КВЦ",
+        "target": 100,
+        "current": 0,
+        "previous": 0
+      },
+      "submitted": false
+    },
+    {
+      "id": 3,
+      "name": "Отдел разработки",
+      "leadIndicator": {
+        "name": "Показатель",
+        "plan": 10,
+        "current": 0,
+        "previous": 0
+      },
+      "kvts": {
+        "name": "КВЦ",
+        "target": 100,
+        "current": 0,
+        "previous": 0
+      },
+      "submitted": false
+    },
+    {
+      "id": 4,
+      "name": "Отдел поддержки",
+      "leadIndicator": {
+        "name": "Показатель",
+        "plan": 10,
+        "current": 0,
+        "previous": 0
+      },
+      "kvts": {
+        "name": "КВЦ",
+        "target": 100,
+        "current": 0,
+        "previous": 0
+      },
+      "submitted": false
+    },
+    {
+      "id": 5,
+      "name": "Отдел HR",
+      "leadIndicator": {
+        "name": "Показатель",
+        "plan": 10,
+        "current": 0,
+        "previous": 0
+      },
+      "kvts": {
+        "name": "КВЦ",
+        "target": 100,
+        "current": 0,
+        "previous": 0
+      },
+      "submitted": false
+    },
+    {
+      "id": 6,
+      "name": "Отдел финансов",
+      "leadIndicator": {
+        "name": "Показатель",
+        "plan": 10,
+        "current": 0,
+        "previous": 0
+      },
+      "kvts": {
+        "name": "КВЦ",
+        "target": 100,
+        "current": 0,
+        "previous": 0
+      },
+      "submitted": false
+    },
+    {
+      "id": 7,
+      "name": "Отдел логистики",
+      "leadIndicator": {
+        "name": "Показатель",
+        "plan": 10,
+        "current": 0,
+        "previous": 0
+      },
+      "kvts": {
+        "name": "КВЦ",
+        "target": 100,
+        "current": 0,
+        "previous": 0
+      },
+      "submitted": false
+    },
+    {
+      "id": 8,
+      "name": "Отдел закупок",
+      "leadIndicator": {
+        "name": "Показатель",
+        "plan": 10,
+        "current": 0,
+        "previous": 0
+      },
+      "kvts": {
+        "name": "КВЦ",
+        "target": 100,
+        "current": 0,
+        "previous": 0
+      },
+      "submitted": false
+    }
+  ]
+}

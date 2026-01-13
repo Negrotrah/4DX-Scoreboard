@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>4DX Scoreboard</title>
+  <script src="https://telegram.org/js/telegram-web-app.js"></script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Звёзды на фоне -->
+  <div class="stars" id="stars"></div>
+  
+  <!-- Pull to refresh индикатор -->
+  <div class="pull-indicator" id="pullIndicator">🔄</div>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="header__left"></div>
+    <div class="header__center">
+      <h1 class="header__title">📊 ТАБЛО ЦЕЛЕЙ</h1>
+      <span class="header__week" id="weekLabel">Неделя 1</span>
+    </div>
+    <div class="header__right">
+      <button class="header-btn refresh-btn" id="refreshBtn" title="Обновить">🔄</button>
+      <button class="header-btn lang-btn" id="langBtn" title="Язык"><span>🇷🇺</span></button>
+      <button class="header-btn theme-btn" id="themeBtn" title="Сменить тему"><span>🌙</span></button>
+    </div>
+  </header>
+
+  <!-- Главная цель -->
+  <section class="main-goal">
+    <h2 class="main-goal__title">🎯 Главная цель: <span id="goalTarget">$1,000,000</span></h2>
+    
+    <div class="progress-container">
+      <!-- Бледный слой (прошлая неделя) -->
+      <div class="progress-bar progress-bar--previous" id="mainPrevious"></div>
+      <!-- Яркий слой (текущая) -->
+      <div class="progress-bar progress-bar--current" id="mainCurrent"></div>
+    </div>
+    
+    <div class="main-goal__stats">
+      <span class="main-goal__current" id="mainCurrentText">$0 (0%)</span>
+      <span class="main-goal__previous" id="mainPreviousText">Прошлая неделя: $0 (0%)</span>
+    </div>
+  </section>
+
+  <!-- Отделы -->
+  <section class="departments" id="departments">
+    <!-- Карточки отделов генерируются JS -->
+  </section>
+
+  <script src="app.js"></script>
+</body>
+</html>
